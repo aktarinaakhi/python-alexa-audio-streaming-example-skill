@@ -1,0 +1,159 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open template three",
+            "Alexa start template three",
+            "Alexa launch template three"
+          ],
+          "keywords": [
+            "keyword1",
+            "keyword2",
+            "keyword3"
+          ],
+          "name": "Template Three - Radio Streaming Skill Example",
+          "description": "Sample Full Description",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        },
+        "en-CA": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open template three",
+            "Alexa start template three",
+            "Alexa launch template three"
+          ],
+          "keywords": [
+            "keyword1",
+            "keyword2",
+            "keyword3"
+          ],
+          "name": "Template Three - Radio Streaming Skill Example",
+          "description": "Sample Full Description",
+          "smallIconUri": "file://assets/images/en-CA_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-CA_largeIconUri.png"
+        },
+        "en-IN": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open template three",
+            "Alexa start template three",
+            "Alexa launch template three"
+          ],
+          "keywords": [
+            "keyword1",
+            "keyword2",
+            "keyword3"
+          ],
+          "name": "Template Three - Radio Streaming Skill Example",
+          "description": "Sample Full Description",
+          "smallIconUri": "file://assets/images/en-IN_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-IN_largeIconUri.png"
+        },
+        "en-AU": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open template three",
+            "Alexa start template three",
+            "Alexa launch template three"
+          ],
+          "keywords": [
+            "keyword1",
+            "keyword2",
+            "keyword3"
+          ],
+          "name": "Template Three - Radio Streaming Skill Example",
+          "description": "Sample Full Description",
+          "smallIconUri": "file://assets/images/en-AU_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-AU_largeIconUri.png"
+        },
+        "en-GB": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "Alexa open template three",
+            "Alexa start template three",
+            "Alexa launch template three"
+          ],
+          "keywords": [
+            "keyword1",
+            "keyword2",
+            "keyword3"
+          ],
+          "name": "Template Three - Radio Streaming Skill Example",
+          "description": "Sample Full Description",
+          "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "No special instructions.",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:395001725986:function:44cfe79c-9d53-4f68-bf42-c1786457d453:Release_0"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:395001725986:function:44cfe79c-9d53-4f68-bf42-c1786457d453:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:395001725986:function:44cfe79c-9d53-4f68-bf42-c1786457d453:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:395001725986:function:44cfe79c-9d53-4f68-bf42-c1786457d453:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "http://dabblelab.com/terms",
+          "privacyPolicyUrl": "http://dabblelab.com/privacy"
+        },
+        "en-CA": {
+          "termsOfUseUrl": "http://dabblelab.com/terms",
+          "privacyPolicyUrl": "http://dabblelab.com/privacy"
+        },
+        "en-IN": {
+          "termsOfUseUrl": "http://dabblelab.com/terms",
+          "privacyPolicyUrl": "http://dabblelab.com/privacy"
+        },
+        "en-AU": {
+          "termsOfUseUrl": "http://dabblelab.com/terms",
+          "privacyPolicyUrl": "http://dabblelab.com/privacy"
+        },
+        "en-GB": {
+          "termsOfUseUrl": "http://dabblelab.com/terms",
+          "privacyPolicyUrl": "http://dabblelab.com/privacy"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
